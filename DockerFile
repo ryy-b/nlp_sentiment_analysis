@@ -1,2 +1,3 @@
-FROM python:3.10.5
-RUN pip install -U janome jupyter numpy pandas torchtext
+FROM python:3.8
+RUN pip install -U janome jupyter numpy pandas
+RUN pip install torchtext==0.6.0
